@@ -10,3 +10,44 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.traffic-light-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.traffic-light {
+  position: relative;
+  width: 100px;
+  padding: 20px;
+  background-color: black;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.light {
+  width: 50px;
+  height: 50px;
+  background-color: #333;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+.light.red {
+  background-color: red;
+}
+
+.light.yellow {
+  background-color: yellow;
+}
+
+.light.green {
+  background-color: green;
+}
+.light.purple {
+  background-color: purple;
+}
+.btn-purple {
+  background-color: purple;
+  border: none;
+  color: white;
+}
